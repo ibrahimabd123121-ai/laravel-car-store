@@ -50,7 +50,7 @@ Main components of the system:
 
 Clone the project:
 
-git clone https://github.com/YOUR_USERNAME/laravel-car-store.git
+git clone https://github.com/ibrahimabd123121-ai/laravel-car-store.git
 
 Go to the project directory:
 
