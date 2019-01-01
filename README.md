@@ -95,18 +95,6 @@ This project helped practice:
 - Session-based cart systems
 - Basic checkout workflow
 
----
-
-📸 Screenshots
-
-(Add screenshots of your project here)
-
-Example:
-
-- Cars page
-- Car details page
-- Cart page
-- Admin dashboard
 
 ---
 
