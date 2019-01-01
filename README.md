@@ -1,41 +1,115 @@
-# InApp Free Inventory Admin Dashboard Template
+🚗 Laravel Car Store
 
-#### Preview
+A simple E-commerce web application built with Laravel for managing cars and car parts with a basic shopping cart and checkout system.
 
- - [Demo](https://themewagon.github.io/inapp/)
+This project was created to practice Laravel fundamentals such as CRUD operations, database relationships, image uploads, and session-based cart systems.
 
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/cryptoflow/)
+---
 
-## Getting Started
+📌 Features
 
-1. Clone Repository
-```
-git clone https://github.com/themewagon/cryptoflow.git
-```
-2. Install Dependencies
-```
-npm i
-```
-3. Run the development server:
+- Car management system
+- Brand management
+- Car parts management
+- Image upload for cars
+- Product details page
+- Shopping cart system
+- Cart item update & removal
+- Checkout system
+- Orders and Order Items management
+- Admin dashboard for CRUD operations
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-## Author 
-```
-Design and code is completely written by CodesCandy and development team. 
-```
+🛠 Technologies Used
 
-## License
+- PHP
+- Laravel
+- MySQL
+- Bootstrap
+- JavaScript
+- HTML / CSS
 
- - Design and Code is Copyright &copy; <a href="https://codescandy.com/" target="_blank">CodesCandy</a>
- - Licensed cover under [MIT]
- - Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+---
+
+📂 Project Structure
+
+Main components of the system:
+
+- Brands
+- Cars
+- Parts
+- Car Images
+- Cart System
+- Orders
+- Order Items
+
+---
+
+⚙️ Installation
+
+Clone the project:
+
+git clone https://github.com/YOUR_USERNAME/laravel-car-store.git
+
+Go to the project directory:
+
+cd laravel-car-store
+
+Install dependencies:
+
+composer install
+
+Copy environment file:
+
+cp .env.example .env
+
+Generate application key:
+
+php artisan key:generate
+
+Configure your database in the ".env" file.
+
+Run migrations:
+
+php artisan migrate
+
+Create storage link for images:
+
+php artisan storage:link
+
+Start the development server:
+
+php artisan serve
+
+---
+
+🧪 Main Learning Goals
+
+This project helped practice:
+
+- Laravel MVC structure
+- CRUD operations
+- Database relationships
+- File uploads
+- Session-based cart systems
+- Basic checkout workflow
+
+---
+
+📸 Screenshots
+
+(Add screenshots of your project here)
+
+Example:
+
+- Cars page
+- Car details page
+- Cart page
+- Admin dashboard
+
+---
+
+👨‍💻 Author
+
+Developed as a learning project for practicing Laravel backend development.
